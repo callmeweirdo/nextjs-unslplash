@@ -7,5 +7,4 @@ export interface UnsplashUser {
     },
     location: string,
     instagram_username: string,
-
 }

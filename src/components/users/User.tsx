@@ -11,9 +11,12 @@ import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded
 import { UnsplashUser } from '@/app/utils/unsplashUser';
 import Image from 'next/image';
 
+interface UserProps {
+  user: UnsplashUser
+}
 
 
-export default function User({user}: UnsplashUser) {
+export default function User({user}: UserProps) {
   return (
     <Box sx={{ minHeight: 350 }}>
       <Card
