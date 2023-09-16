@@ -21,9 +21,7 @@ const Page = async ({params: {topic}} : PageProps) => {
       `https://api.unsplash.com/photos/random?query=${topic}&count=12client_id=${process.env.UNSPLASH_ACCESS_KEY}`
     );
 
-    if (!response) {
-      throw new Error(`Failed to fetch images. Status: ${response.status}`);
-    }
+    
 
     const images: UnsplashImage[] = await response.json();
 
