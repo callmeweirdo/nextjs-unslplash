@@ -37,7 +37,7 @@ const Page = async ({params: {topic}} : PageProps) => {
                     {
                     images.map((image) => (
                         <Grid  md={4} xs={6} key={image.links} >
-                            <Card variant="soft" >
+                            <Card variant="soft">
                                 <AspectRatio>
                                     <Image width={255} height={255} alt={image.alt_description} src={image.urls.raw} key={image.links.self} />
                                 </AspectRatio>
