@@ -48,7 +48,7 @@ function NavBar() {
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
-            variant="h6"
+            level="title-md"
             noWrap
             component={Link}
             href="/"
@@ -112,7 +112,7 @@ function NavBar() {
           </Box>
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
-            variant="h5"
+            level="title-lg"
             noWrap
             component={Link}
             href="/"
