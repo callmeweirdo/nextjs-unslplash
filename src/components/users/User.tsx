@@ -84,7 +84,7 @@ export default function User({user}: UserProps) {
               color="neutral"
               sx={{ ml: 'auto', alignSelf: 'flex-start' }}
             >
-              <FavoriteBorderRoundedIcon color="danger" />
+              <FavoriteBorderRoundedIcon sx={{color: "red"}} />
             </IconButton>
           </Box>
           <AspectRatio
