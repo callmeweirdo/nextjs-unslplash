@@ -64,7 +64,7 @@ const Page = async ({params: {topic}} : PageProps) => {
     console.error('Error fetching images:', error);
     return (
       <Container maxWidth="xl" sx={{ mt: 4 }}>
-        <Typography variant="h6" color="error">
+        <Typography level="title-lg" color="danger">
           Error fetching images. Please check your API request and try again.
         </Typography>
       </Container>

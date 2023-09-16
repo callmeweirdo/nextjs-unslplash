@@ -23,9 +23,9 @@ const Page = async () => {
 
     return (
         <>
-            <Container maxWidth="md" maxHeight="100vh" sx={{ mt: 5, textAlign:"center"}} >
+            <Container maxWidth="md" sx={{ mt: 5, textAlign:"center"}} >
                 <Sheet variant="soft" sx={{borderRadius: 5, p: 2, m: 4}}  >
-                    <Typography variant="body1"  >
+                    <Typography level="body-md" variant="soft"  >
                         <strong> this page allows us to fetch and render new image dynamically </strong> Every time we refresh the page we get a new image from unspalsh Api
                     </Typography>
                 </Sheet>

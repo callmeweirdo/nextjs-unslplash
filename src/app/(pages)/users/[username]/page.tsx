@@ -42,7 +42,7 @@ const Page = async ({params  : {username} }: PageProps) => {
         <>
             <Container maxWidth="md" sx={{ color: "white", mt: 5, display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", height: "70vh", position: "absolute" }} >
                     <Sheet  variant="soft" sx={{borderRadius: 5, p: 2, m: 4, width: "50%"}}  >
-                        <Typography variant="body1">
+                        <Typography level="title-lg">
                             <strong> this page uses generateMetadata</strong> to dynamically set the page title from the Api Response
                         </Typography>
                     </Sheet>
