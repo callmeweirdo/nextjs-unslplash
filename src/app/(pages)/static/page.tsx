@@ -21,9 +21,9 @@ const Page = async () => {
 
     return (
         <>
-            <Container maxWidth="md" maxHeight="100vh" sx={{ mt: 5, textAlign:"center"}} >
+            <Container maxWidth="md" sx={{ mt: 5, textAlign:"center"}} >
                 <Sheet variant="soft" sx={{borderRadius: 5, p: 2, m: 4}}  >
-                    <Typography variant="body1"  >
+                    <Typography level="title-lg"  >
                         <strong> this page fetches and caches data at build time. </strong> Even though the unspalsh api resopondes with a new image on each request, we will always see the same image untill we compile th project again
                     </Typography>
                 </Sheet>
